@@ -18,9 +18,19 @@
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 17px;
     color: $grey;
+    outline: none;
+  }
+
+  &__search-input::placeholder{
+    font-size: 13px;
+  }
+
+  &__search-input:focus{
+    box-shadow: 0 0 5px grey;
+    border-radius: 6px;
   }
 }
 
